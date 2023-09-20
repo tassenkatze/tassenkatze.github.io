@@ -1,0 +1,13 @@
+Emmet: short commands/abbreviations to create something bigger 
+    div.divClassName   turns into   <div className="divClassName"></div>
+
+ClickEvents:
+    <button onClick={handleClick}>Uwu</button> --> Button with linked handleClick function (will be evoced onClick)
+    <button onClick={() => handleClick("cat")}>Uwu</button> --> for passing parameters
+    <button onClick={(e) => handleClick("cat", e)}>Uwu</button> --> with event argument: event: React.MouseEvent<HTMLButtonElement, MouseEvent>
+
+Reactive Variable: 
+    const [food, setFood] = useState("potato") --> setFood("cake") to change
+
+
+Snippet to Create Component: ffc or sfc + Tab-Key

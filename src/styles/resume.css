@@ -1,0 +1,21 @@
+.timeline {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.TimelineItemPanel * {
+  margin: 5px;
+}
+
+.TimelineItemPanel {
+  margin: 20px 0px;
+}
+
+.leftColumn {
+    padding: auto;
+  }
+
+.rightColumn {
+    padding-left: 5px;
+    border-left: 1px solid rgb(3, 3, 55);
+}
