@@ -6,6 +6,8 @@ function Menubar() {
                 <a href="/projects">Projects</a>
             </div>
         </div>
+
+        
      );
 }
  

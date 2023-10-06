@@ -1,9 +1,12 @@
+@import "./styles/colours";
+
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  background-color: rgb(3, 3, 55);
-  color:rgb(3, 3, 55);
+  background-color: $colorDarkblue;
+  color:$colorDarkblue;
 }
 
 code {
@@ -12,9 +15,9 @@ code {
 }
 
 button {
-  color: rgb(3, 3, 55);
+  color: $colorDarkblue;
   background-color: none;
-  border-color: rgb(3, 3, 55);
+  border-color: $colorDarkblue;
   padding: 5px;
   border-width: 4px;
 }
@@ -39,7 +42,7 @@ button {
 
 .Header {
   grid-area: header;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: $colorHalftransparent;
 }
 
 .Content {
@@ -47,13 +50,13 @@ button {
 }
 
 .Content > div {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: $colorHalftransparent;
   padding: 20px;
 }
 
 .Footer {
   grid-area: footer;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: $colorHalftransparent;
   padding: 20px;
 }
 
@@ -92,7 +95,7 @@ button {
   color:rgb(3, 3, 55);
   padding-right: 10px;
 }
-a:hover {
-  color:rgb(138, 43, 226)
+.Links a:hover {
+  color:$colorHover;
 }
 /* Header End*/

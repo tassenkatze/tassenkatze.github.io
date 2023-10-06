@@ -1,11 +1,12 @@
-import '../styles/resume.css';
+
+import '../styles/resume.scss';
 
 function Resume() {
     return ( 
         <>
             <h1>Hello to cat world</h1>
             <h2>Resumé</h2>
-            <p style={{}}> formatting coming soon</p> 
+            <p> formatting coming soon</p> 
             <br></br><br></br><br></br>
             {/* <MakeTimeline/> */}
             <MakeTimeLineTest/>
