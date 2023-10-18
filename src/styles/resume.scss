@@ -1,21 +1,38 @@
+@import "./colours";
+
 .timeline {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 16px 1fr;
+  row-gap: 20px;
+  align-items: center;
+  // justify-items: center;
 }
 
-.TimelineItemPanel * {
-  margin: 5px;
+
+.TimelineItemCard {
+  margin:10px;
 }
 
-.TimelineItemPanel {
-  margin: 20px 0px;
+.TimelineItemHeader {
+  background-color: $colorDarkteal;
+  padding: 5px;
 }
 
-.leftColumn {
-    padding: auto;
-  }
+h4, h6 {
+  margin: 0px;
+}
 
-.rightColumn {
-    padding-left: 5px;
-    border-left: 1px solid rgb(3, 3, 55);
+.verticalLine {
+  align-self: stretch;
+  justify-self: center;
+}
+
+.verticalLine > div{
+  background-color: $colorDarkteal;
+  border-radius: 2px;
+  width: 4px;
+  height: calc(100% - 4px);
+  margin: 2px;
+  align-self: normal;
+  display: inline-block;
 }

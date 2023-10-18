@@ -1,5 +1,3 @@
-import Menubar from "./Menubar";
-
 function Header() {
     return (
         <div className="Header">
@@ -7,6 +5,19 @@ function Header() {
             <Menubar />
         </div>
     )
+}
+
+function Menubar() {
+    return ( 
+        <div className='Menubar'>
+            <div className="Links">
+                <a href="/aboutMe">About Me</a>
+                <a href="/projects">Projects</a>
+            </div>
+        </div>
+
+        
+     );
 }
 
 export default Header;
